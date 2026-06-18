@@ -27,6 +27,7 @@ my_game_project/
         ├── chapter_1_3_16.png
         ├── chapter_1_3_17.png
         └── ... (chapter artwork assets)
+```
 
 ## Installation and Setup
 Prerequisites
@@ -34,7 +35,7 @@ Prerequisites
 - Pillow image processing package.
 
 ## Configuration Instructions
-= Install the third-party Pillow requirements library:
+- Install the third-party Pillow requirements library:
 ```
 pip install Pillow
 ```
