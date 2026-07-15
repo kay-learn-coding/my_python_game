@@ -1,15 +1,14 @@
-import time
-import random
-import sys
-import tkinter as tk #extreme_lite(info)
-from tkinter import Label
-from tkinter import Button
-from tkinter import Entry
-from PIL import Image, ImageTk
-import os
+import engine
 import chapter_1
 
 def main():
-    chapter_1()
+    # Start Chapter 1
+    chapter_1.start_chapter_1()
+    
+    # Start Tkinter main loop to keep the window alive
+    engine.root.mainloop()
+
+if __name__ == "__main__":
+    main()
     
 
